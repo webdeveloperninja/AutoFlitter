@@ -1,0 +1,81 @@
+
+#auto-flitter-logo {
+    max-width: 220px;
+    margin-bottom: 2%;
+}
+
+
+.welcome-btn {
+    display: block;
+    margin-top: 2%;
+}
+
+body {
+    padding-top: 3%;
+    background: url(https://d389zggrogs7qo.cloudfront.net/images/home/buffer-landing-page-1-light-hero.png) no-repeat #F4F7F9;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h3.title {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+h3.sub-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;    
+    margin-bottom: 3%;
+}
+
+#twitter-login-cta {
+    margin-bottom: 3%;
+}
+
+.img-center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#powered-by {
+    margin-top: 3%;
+}
+
+
+.package-box-wrap {
+    display: inline-block;
+    float: none;
+    margin-right: -4px;
+    vertical-align: top;
+    margin-bottom: 25px;
+}
+
+.package {
+    border-radius: 4px;
+    background: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+.package-header {
+    height: 57px;
+    color: #FFF;
+    line-height: 57px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.dark-bg {
+    background: #404040;
+}
+
+.price {
+    line-height: 120px;
+    height: 100px;
+    color: #FFF;
+    font-weight: 400;
+}

@@ -1,0 +1,30 @@
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <h3 class="text-center">New Dealer</h3>
+          <div class="form-group">
+            <label>Dealer Name</label>
+            <input ng-model="dealerSettings.dealerName" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label>Dealer Edmunds Id</label>
+            <input ng-model="dealerSettings.dealerEdmundsId" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label>Username</label>
+            <input ng-model="dealerSettings.username" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input ng-model="dealerSettings.password" class="form-control" type="password" required>
+          </div>
+          <div class="form-group">
+              <label>Confirm Password</label>
+              <input ng-model="dealerSettings.confirmPassword" class="form-control" type="password" required>
+          </div>
+          <a href="#/new-dealer" ng-click="saveDealer()" class="btn btn-primary" style="margin-top: 1%;">Save Dealer</a>
+          <a href="#/" class="btn btn-primary" style="margin-top: 1%;">Back</a>        
+          <a href="#/settings" class="btn btn-primary" style="margin-top: 1%;">Next</a>
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,48 @@
+    <div class="container" ng-controller="NewDealerController">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <h3 class="text-center">Tweet Settings</h3>
+      			<div class="form-group">
+      				<label>Tweet Times</label>
+      				<select class="form-control" ng-model="user.tweetTimes">
+      					<option value="noon">Noon</option>
+      					<option value="1pm">1:00 pm</option>
+      					<option value="2pm">2:00 pm</option>
+      					<option value="3pm">3:00 pm</option>
+      					<option value="4pm">4:00 pm</option>
+      					<option value="5pm">5:00 pm</option>
+      					<option value="6pm">6:00 pm</option>
+      					<option value="7pm">7:00 pm</option>
+      					<option value="8pm">8:00 pm</option>
+      					<option value="9pm">9:00 pm</option>
+      					<option value="10pm">10:00 pm</option>
+      					<option value="11pm">11:00 pm</option>
+      					<option value="midnight">Midnight</option>
+      					<option value="1am">1:00 am</option>
+      					<option value="2am">2:00 am</option>
+      					<option value="3am">3:00 am</option>
+      					<option value="4am">4:00 am</option>
+      					<option value="5am">5:00 am</option>
+      					<option value="6am">6:00 am</option>
+      					<option value="7am">7:00 am</option>
+      					<option value="8am">8:00 am</option>
+      					<option value="9am">9:00 am</option>
+      					<option value="10am">10:00 am</option>
+      					<option value="11am">11:00 am</option>
+      				</select>
+      			</div>
+      			<div class="form-group">
+      				<div class="checkbox">
+      				  <label><input type="checkbox" ng-model="user.optionalMessage">Optional Message</label>
+      				</div>
+      			</div><!-- end form-group -->
+      			<div class="form-group">
+      				<label>Tweet Message</label>
+      				<textarea name="optionalTweet" class="form-control" ng-model="user.optionalMessageText" ng-disabled="!user.optionalMessage"></textarea>
+      			</div>
+          <a href="#" ng-click="saveTweetSettings()" class="btn btn-primary" style="margin-top: 1%;">Save Tweet Settings</a>
+          <a href="#/new-dealer" class="btn btn-primary" style="margin-top: 1%;">Back</a>
+          <a href="#/main-menu" class="btn btn-primary" style="margin-top: 1%;">Next</a>
+        </div>
+      </div>
+    </div>
